@@ -1,4 +1,4 @@
- alifyanfa/aplikasi-kalkulatorimport streamlit as st
+import streamlit as st
 
 st.title('menghitung jumlah mmol dari suatu Gas mulia')
 
