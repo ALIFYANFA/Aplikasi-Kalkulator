@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title('menghitung jumlah mmol dari suatu Gas mulia')
 
-tabl, tab2=st(['informasi tentang Gas mulia','informasi nilai Ar Gas Mulia'])
+tabl, tab2=st.tabs(['informasi tentang Gas mulia','informasi nilai Ar Gas Mulia'])
 
 with tab1:
     st.header('Informasi Tentang Gas Mulia')
