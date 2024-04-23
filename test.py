@@ -1,14 +1,18 @@
 import streamlit as st
 
-st.title('test')
+st.title('menghitung jumlah mmol dari suatu Gas mulia')
 
-st.header('Aplikasi penjumlahan bilangan numerik',divider='rainbow')
+tabl, tab2=st(['informasi tentang Gas mulia','informasi nilai Ar Gas Mulia','kalkulator menghitung mol'])
 
-angka_pertama = st.number_input('masukkan angka pertama')
-st.write('the first number is',angka_pertama)
+with tab1:
+st.header('Informasi Tentang Gas Mulia')
+st.write('Gas Mulia atau Gas adi adalah Gas mulia adalah unsur kimia golongan 8 atau VIIIA di tabel periodik. Golongan ini disebut juga sebagai golongan helium atau neon dan golongan aerogen. Golongan ini terdiri dari unsur helium (He), Neon (Ne), argon (Ar), kripton (Kr), xenon (Xe), unsur radioaktif radon (Rn), dan unsur sintetis yang radioaktif oganeson (Og). Semua anggota unsur golongan 18 (VIIIA) merupakan gas mulia, bersifat nonlogam, dan berwujud gas pada suhu dan tekanan standar, kecuali oganeson (yang diprediksi akan berwujud padat dan bersifat seperti logam')
 
-angka_kedua = st.number_input('masukkan angka kedua')
-st.write('the second number is',angka_kedua)
-
-operasi_matematika = angka_pertama * angka_kedua
-st.write(f"angka pertama {angka_pertama} x angka kedua {angka_kedua} = {operasi_matematika}")
+with tab2:
+st.header('Nilai Ar Suatu Gas Mulia')
+st.write('He = 4,0026')
+st.write('Ne = 20,183')
+st.write('Ar = 39,948')
+st.write('Kr = 83,80')
+st.write('Xe = 131,30')
+st.write('Rn = (222)')
