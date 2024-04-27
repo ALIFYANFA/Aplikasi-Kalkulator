@@ -23,13 +23,13 @@ with tab3:
         'nama alkali tanah',
         ['Be','Mg','Ca','Sr','Ba','Ra'])
     y=st.number_input('Masukkan masa padatan dari unsur alkali tanah yang telah dipilih dalam satuan mg:')
-    y=st.number_input('Masukkan masa atom relatif Alkali Tanah (Ar) yang telah dipilih dalam satuan mg/mmol:')    
+    z=st.number_input('Masukkan masa atom relatif Alkali Tanah (Ar) yang telah dipilih dalam satuan mg/mmol:')    
 
 
 
 
-     tombol = st.button('Hitung jumlah mmol dari suatu Alkali Tanah')
+    tombol = st.button('Hitung jumlah mmol dari suatu Alkali Tanah')
      
-     if tombol:
+    if tombol:
         jumlah_mmol=y/z
         st.success(f'jumlah mmol adalah{options}{jumlah_mmol}') 
