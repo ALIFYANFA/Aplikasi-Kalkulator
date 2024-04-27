@@ -28,7 +28,7 @@ with tab3:
 
 
 
-     tombol=st.button('Hitung jumlah mmol dari suatu Alkali Tanah')
+     tombol = st.button('Hitung jumlah mmol dari suatu Alkali Tanah')
      
      if tombol:
         jumlah_mmol=y/z
