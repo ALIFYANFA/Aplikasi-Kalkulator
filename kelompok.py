@@ -33,13 +33,13 @@ with tab3:
     x=st.number_input('Masukkan molaritas dari sampel yang telah dipilih dalam satuan mg/mmol:')
     y=st.number_input('Masukkan volume titran dalam satuan mL:')    
     z=st.number_input('Masukkan bobot molekul dalam satuan mmol/mL')
-    v=st.number_input('Masukkan volume sampel dalam satuan L')
+    v=st.number_input('Masukkan volume sampel dalam satuan mL')
 
 
     tombol = st.button('Hitung jumlah PPM')
      
     if tombol:
-        jumlahPPM=x*y*z/v
+        jumlahPPM=0.001*x*y*z/v
         st.success(f'jumlah PPM adalah{jumlahPPM}') 
 
 
