@@ -11,7 +11,6 @@ with tab1:
     
 with tab2:
     st.header('kalkulator menghitung Molaritas')
-    options=st.multiselect()
     y=st.number_input('Masukkan masa padatan dari sampel yang telah dipilih dalam satuan mg:')
     x=st.number_input('Masukkan bobot molekul sampel dalam satuan mmol/mL:')    
     z=st.number_input('Masukkan volume dalam satuan mL')
