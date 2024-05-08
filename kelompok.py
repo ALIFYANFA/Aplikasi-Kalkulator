@@ -21,5 +21,5 @@ with tab2:
     tombol = st.button('Hitung jumlah molaritas')
      
     if tombol:
-        jumlah_mmol=y/x*z
-        st.success(f'jumlah molaritas adalah{options}{jumlah_molaritas}') 
+        jumlahmolaritas=y/x*z
+        st.success(f'jumlah molaritas adalah{options}{jumlahmolaritas}') 
