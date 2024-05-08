@@ -22,4 +22,4 @@ with tab2:
      
     if tombol:
         jumlahmolaritas=y/x*z
-        st.success(f'jumlah molaritas adalah{options}{jumlahmolaritas}') 
+        st.success(f'jumlah molaritas adalah{jumlahmolaritas}') 
