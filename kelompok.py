@@ -39,7 +39,7 @@ with tab3:
     tombol = st.button('Hitung jumlah PPM')
      
     if tombol:
-        jumlahPPM=1000*x*y*z/v
+        jumlahPPM=x*y*z/v/1000
         st.success(f'jumlah PPM adalah{jumlahPPM}') 
 
 
