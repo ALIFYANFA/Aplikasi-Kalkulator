@@ -12,7 +12,7 @@ with tab1:
 with tab2:
     st.header('kalkulator menghitung Molaritas ')
     y=st.number_input('Masukkan masa padatan dari sampel yang telah dipilih dalam satuan mg:')
-    x=st.number_input('Masukkan bobot molekul sampel dalam satuan mmol/mL:')    
+    x=st.number_input('Masukkan bobot molekul sampel dalam satuan mg/mmol:')    
     z=st.number_input('Masukkan volume dalam satuan mL')
 
 
@@ -30,9 +30,9 @@ with tab2:
 
 with tab3:
     st.header('kalkulator menghitung PPM dengan diketahui molaritas')
-    x=st.number_input('Masukkan molaritas dari sampel yang telah dipilih dalam satuan mg/mmol:')
+    x=st.number_input('Masukkan molaritas dari sampel yang telah dipilih dalam satuan mmol/mL:')
     y=st.number_input('Masukkan volume titran dalam satuan mL:')    
-    z=st.number_input('Masukkan bobot molekul dalam satuan mmol/mL')
+    z=st.number_input('Masukkan bobot molekul dalam satuan mg/mmol')
     v=st.number_input('Masukkan volume sampel dalam satuan mL')
 
 
