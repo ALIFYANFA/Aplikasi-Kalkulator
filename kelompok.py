@@ -8,7 +8,7 @@ with tab1:
     st.header('informasi tentang PPM')
     st.write('Satuan konsentrasi ppm (parts per million, "bagian per sejuta") adalah satuan yang dipakai sebagai satuan nirdimensi yang berasal dari pecahan yang sangat kecil, misalnya konsentrasi larutan atau kelimpahan partikel yang sangat kecil. ')
     import streamlit as st
-    .magicpattern { 
+    magicpattern { 
      width: 100%;
     height: 100%;
     background-size: cover;
