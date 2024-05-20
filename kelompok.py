@@ -1,21 +1,6 @@
 import streamlit as st
 
-# Add custom CSS to set the background image
-st.markdown(
-    f"""
-    <style>
-     .stApp {{
-        background-image: url("backgroundsteamlit.jpeg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-     }}
-
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
+st.image('background streamlit.jpeg')
 
 st.title('Aplikasi Perhitungan ppm dari Molaritas ')
 
