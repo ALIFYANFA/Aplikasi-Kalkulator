@@ -4,12 +4,13 @@ import streamlit as st
 st.markdown(
     f"""
     <style>
-    .stApp {{
-        background-image: url("background steamlit.jpeg");
+     .stApp {{
+        background-image: url("backgroundsteamlit.jpeg");
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
-    }}
+     }}
+
     </style>
     """,
     unsafe_allow_html=True
