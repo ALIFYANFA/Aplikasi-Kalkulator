@@ -7,7 +7,7 @@ tab1, tab2, tab3, tab4=st.tabs(['Biodata Kelompok 7','informasi tentang ppm','ka
 
 with tab1:
     st.header('Biodata kelompok')
-    st.write('')
+    st.image('biodata kelompok 7.jpg')
 
 with tab2:
     st.header('informasi tentang ppm')
