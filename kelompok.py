@@ -1,15 +1,6 @@
 import streamlit as st
 
-    import tkinter as tk
 
-    root = tk.Tk()
-    root.geometry('200x200')  # Set the size of the window
-
-    # Create a button with a red background
-    button = tk.Button(root, text="Click me!", bg='red')
-    button.pack()
-
-root.mainloop()
 
 st.title('Aplikasi Perhitungan ppm dari Molaritas ')
 
