@@ -1,6 +1,6 @@
 import streamlit as st
 
-
+st.background('background streamlit.jpeg')
 st.title('Aplikasi Perhitungan ppm dari Molaritas ')
 
 tab1, tab2, tab3, tab4=st.tabs(['Biodata Kelompok 7','informasi tentang ppm','kalkulator menghitung Molaritas','kalkulator menghitung ppm dari Molaritas'])
