@@ -1,11 +1,14 @@
 import streamlit as st
+
 # Add custom CSS to set the background image
 st.markdown(
     f"""
     <style>
     .stApp {{
-        background: url("background steamlit.jpeg");
+        background-image: url("background steamlit.jpeg");
         background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }}
     </style>
     """,
