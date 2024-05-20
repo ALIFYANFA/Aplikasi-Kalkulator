@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.image('background streamlit.jpeg')
+
 
 st.title('Aplikasi Perhitungan ppm dari Molaritas ')
 
