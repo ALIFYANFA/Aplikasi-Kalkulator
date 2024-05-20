@@ -3,7 +3,7 @@ import streamlit as st
 
 st.title('Aplikasi Perhitungan ppm dari Molaritas ')
 
-tab1, tab2, tab3, tab4, tab5, tab6=st.tabs(['Biodata Kelompok 7','informasi tentang ppm','kalkulator menghitung Molaritas','kalkulator menghitung ppm dari Molaritas'])
+tab1, tab2, tab3, tab4=st.tabs(['Biodata Kelompok 7','informasi tentang ppm','kalkulator menghitung Molaritas','kalkulator menghitung ppm dari Molaritas'])
 
 with tab1:
     st.header('Biodata kelompok')
@@ -30,7 +30,7 @@ with tab3:
 
 
 with tab4:
-    st.header('kalkulator menghitung ppm dengan diketahui molaritas')
+    st.header('kalkulator menghitung ppm dari molaritas')
     x=st.number_input('Masukkan molaritas dari sampel yang telah dipilih dalam satuan mmol/mL:')
     y=st.number_input('Masukkan volume titran dalam satuan mL:')    
     z=st.number_input('Masukkan bobot molekul dalam satuan mg/mmol')
@@ -39,7 +39,7 @@ with tab4:
     tombol = st.button('Hitung jumlah ppm')
      
     if tombol:
-        jumlahPPM=x*y*z/v/0.001
+        jumlahppm=x*y*z/v/0.001
         st.success(f'jumlah ppm adalah{jumlahppm}') 
 
 
