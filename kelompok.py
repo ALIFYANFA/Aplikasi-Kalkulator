@@ -1,11 +1,15 @@
 import streamlit as st
-
-[theme]
- primaryColor="#F63366"
- backgroundColor="#FFFFFF"
- secondaryBackgroundColor="#F0F2F6"
- textColor="#262730"
- font="sans serif"
+Sunting
+Layar penuh
+Salin kode
+css = """
+<style>
+    [data-testid="stForm"] {
+        background: LightBlue;
+    }
+</style>
+"""
+st.write(css, unsafe_allow_html=True)
 
 st.title('Menghitung Jumlah Molaritas dan PPM ')
 
