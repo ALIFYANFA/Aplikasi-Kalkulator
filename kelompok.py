@@ -13,7 +13,7 @@ with tab1:
 with tab2:
     st.header('informasi tentang ppm')
     st.write('Satuan konsentrasi ppm (parts per million, "bagian per sejuta") adalah satuan yang dipakai sebagai satuan nirdimensi yang berasal dari pecahan yang sangat kecil, misalnya konsentrasi larutan atau kelimpahan partikel yang sangat kecil. ')
-    st.image("gambar kimia orang.webp")
+    st.image("bird-colors.gif")
     
 with tab3:
     st.header('kalkulator menghitung Molaritas ')
