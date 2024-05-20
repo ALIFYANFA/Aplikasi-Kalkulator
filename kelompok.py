@@ -1,26 +1,20 @@
 import streamlit as st
-Sunting
-Layar penuh
-Salin kode
-css = """
-<style>
-    [data-testid="stForm"] {
-        background: LightBlue;
-    }
-</style>
-"""
-st.write(css, unsafe_allow_html=True)
 
-st.title('Menghitung Jumlah Molaritas dan PPM ')
 
-tab1, tab2, tab3=st.tabs(['informasi tentang PPM','kalkulator menghitung Molaritas','kalkulator menghitung ppm dari Molaritas'])
+st.title('Aplikasi Perhitungan ppm dari Molaritas ')
+
+tab1, tab2, tab3, tab4, tab5, tab6=st.tabs(['Biodata Kelompok 7','informasi tentang ppm','kalkulator menghitung Molaritas','kalkulator menghitung ppm dari Molaritas'])
 
 with tab1:
-    st.header('informasi tentang PPM')
-    st.write('Satuan konsentrasi ppm (parts per million, "bagian per sejuta") adalah satuan yang dipakai sebagai satuan nirdimensi yang berasal dari pecahan yang sangat kecil, misalnya konsentrasi larutan atau kelimpahan partikel yang sangat kecil. ')
+    st.header('Biodata kelompok')
+    st.write('')
 
-    
 with tab2:
+    st.header('informasi tentang ppm')
+    st.write('Satuan konsentrasi ppm (parts per million, "bagian per sejuta") adalah satuan yang dipakai sebagai satuan nirdimensi yang berasal dari pecahan yang sangat kecil, misalnya konsentrasi larutan atau kelimpahan partikel yang sangat kecil. ')
+    st.image("C:\Users\Alif yanfa\Documents\LPK KLMPK 7\gambar kimia orang.webp")
+    
+with tab3:
     st.header('kalkulator menghitung Molaritas ')
     y=st.number_input('Masukkan masa padatan dari sampel yang telah dipilih dalam satuan mg:')
     x=st.number_input('Masukkan bobot molekul sampel dalam satuan mg/mmol:')    
@@ -35,21 +29,18 @@ with tab2:
         st.success(f'jumlah molaritas adalah{jumlahmolaritas}') 
 
 
-
-
-
-with tab3:
-    st.header('kalkulator menghitung PPM dengan diketahui molaritas')
+with tab4:
+    st.header('kalkulator menghitung ppm dengan diketahui molaritas')
     x=st.number_input('Masukkan molaritas dari sampel yang telah dipilih dalam satuan mmol/mL:')
     y=st.number_input('Masukkan volume titran dalam satuan mL:')    
     z=st.number_input('Masukkan bobot molekul dalam satuan mg/mmol')
     v=st.number_input('Masukkan volume sampel dalam satuan mL')
     
-    tombol = st.button('Hitung jumlah PPM')
+    tombol = st.button('Hitung jumlah ppm')
      
     if tombol:
         jumlahPPM=x*y*z/v/0.001
-        st.success(f'jumlah PPM adalah{jumlahPPM}') 
+        st.success(f'jumlah ppm adalah{jumlahppm}') 
 
 
 
