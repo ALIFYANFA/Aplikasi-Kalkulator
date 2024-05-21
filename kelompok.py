@@ -10,7 +10,7 @@ with tab1:
 
 with tab2:
     st.header('Informasi Tentang ppm')
-    st.write('Satuan konsentrasi ppm (parts per million, "bagian per sejuta") adalah satuan yang dipakai sebagai satuan nirdimensi yang berasal dari pecahan yang sangat kecil, misalnya konsentrasi larutan atau kelimpahan partikel yang sangat kecil. ')
+    st.write('Satuan konsentrasi ppm (parts per million, "bagian per sejuta")pada dasarnya bertujuan untuk menghitung kadar kandungan yang terlarut dalam air, Dalam industri, PPM adalah satuan yang sering digunakan untuk mengukur kualitas produk dan bahan, serta kontrol kualitas dalam proses produksi, Penggunaan ppm memungkinkan untuk mendeteksi sejumlah sangat kecil dari bahan atau zat yang bisa berdampak signifikan terhadap lingkungan atau kesehatan manusia')
     st.image("gambar kimia orang.webp")
     
 with tab3:
@@ -34,7 +34,7 @@ with tab4:
     y=st.number_input('Masukkan volume titran dalam satuan mL:')    
     z=st.number_input('Masukkan bobot molekul dalam satuan mg/mmol')
     v=st.number_input('Masukkan volume sampel dalam satuan mL')
-    m=st.number_input('Masukan faktor pengali')
+    m=st.number_input('Masukan faktor pengali (jika Tidak ada Masukan Angka 1)')
     st.image("bird-colors.gif")
     
     tombol = st.button('Hitung jumlah ppm')
