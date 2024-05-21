@@ -1,32 +1,15 @@
 import streamlit as st
 
-
-st.markdown(
-    f"""
-    <style>
-    .stApp {{
-        background-image: url("background steamlit.jpeg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }}
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
-
-
 st.title('Kalkukator ppm dari Molaritas ')
 
-tab1, tab2, tab3, tab4, tab5, tab6=st.tabs(['Biodata Kelompok 7','informasi tentang ppm','kalkulator Molaritas','kalkulator ppm dari Molaritas','Contoh Soal Molaritas','Contoh Soal ppm'])
+tab1, tab2, tab3, tab4, tab5, tab6=st.tabs(['Biodata Kelompok 7','Informasi Tentang ppm','kalkulator Molaritas','kalkulator ppm dari Molaritas','Contoh Soal Molaritas','Contoh Soal ppm'])
 
 with tab1:
     st.header('Biodata kelompok')
     st.image('biodata kelompok 7.jpg')
 
 with tab2:
-    st.header('informasi tentang ppm')
+    st.header('Informasi Tentang ppm')
     st.write('Satuan konsentrasi ppm (parts per million, "bagian per sejuta") adalah satuan yang dipakai sebagai satuan nirdimensi yang berasal dari pecahan yang sangat kecil, misalnya konsentrasi larutan atau kelimpahan partikel yang sangat kecil. ')
     st.image("gambar kimia orang.webp")
     
