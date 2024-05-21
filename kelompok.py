@@ -34,7 +34,7 @@ with tab4:
     y=st.number_input('Masukkan volume titran dalam satuan mL:')    
     z=st.number_input('Masukkan bobot molekul dalam satuan mg/mmol')
     v=st.number_input('Masukkan volume sampel dalam satuan mL')
-    m=st.number_input('masukan faktor pengali')
+    m=st.number_input('Masukan faktor pengali')
     st.image("bird-colors.gif")
     
     tombol = st.button('Hitung jumlah ppm')
