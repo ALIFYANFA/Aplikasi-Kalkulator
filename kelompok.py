@@ -14,7 +14,6 @@ with tab1:
 
 with tab2:
 
-    st.header('Rumus Molaritas')
     st.image('rumus molaritas - Salin.jpg')
    
     st.header('Kalkulator Molaritas ')
@@ -31,12 +30,10 @@ with tab2:
         jumlahmolaritas=y/x/z/m
         st.success(f'jumlah Molaritas adalah{jumlahmolaritas}') 
 
-    st.header('Contoh Soal Molaritas')
     st.image('contoh soal molaritas 1.jpg')
 
 
 with tab3:
-    st.header('Rumus Mencari ppm dari Molaritas')
     st.image('rumus ppm.jpg')
 
     st.header('Kalkulator ppm')
@@ -52,5 +49,4 @@ with tab3:
         jumlahppm=x*y*z/v/0.001
         st.success(f'jumlah ppm adalah{jumlahppm}') 
 
-    st.header('Contoh Soal ppm')
-    st.image('contoh soal ppm1.jpg')
+    st.image('contoh soal.jpg')
