@@ -4,7 +4,7 @@ import streamlit as st
 
 st.title('Aplikasi Perhitungan ppm dari Molaritas ')
 
-tab1, tab2, tab3, tab4=st.tabs(['Biodata Kelompok 7','informasi tentang ppm','kalkulator menghitung Molaritas','kalkulator menghitung ppm dari Molaritas'])
+tab1, tab2, tab3, tab4, tab5=st.tabs(['Biodata Kelompok 7','informasi tentang ppm','kalkulator menghitung Molaritas','kalkulator menghitung ppm dari Molaritas','Latihan Soal'])
 
 with tab1:
     st.header('Biodata kelompok')
@@ -45,5 +45,6 @@ with tab4:
         jumlahppm=x*y*z*m/v/0.001
         st.success(f'jumlah ppm adalah{jumlahppm}') 
 
-
-
+with tab5:
+    st.header('Latihan soal')
+    st.write('')
