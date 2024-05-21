@@ -9,7 +9,9 @@ tab1, tab2, tab3=st.tabs(['Informasi Tentang ppm','Kalkulator Molaritas','Kalkul
 
 with tab1:
     st.header('Informasi Tentang ppm')
-    st.write('Satuan konsentrasi ppm (parts per million, "bagian per sejuta")pada dasarnya bertujuan untuk menghitung kadar kandungan yang terlarut dalam air, Dalam industri, ppm adalah satuan yang sering digunakan untuk mengukur kualitas produk dan bahan, serta kontrol kualitas dalam proses produksi, Penggunaan ppm memungkinkan untuk mendeteksi sejumlah sangat kecil dari bahan atau zat yang bisa berdampak signifikan terhadap lingkungan atau kesehatan manusia')
+    st.write('Molaritas adalah satuan konsentrasi larutan yang menyatakan jumlah mol zat terlarut dalam satu liter larutan. Satuan ini sering digunakan dalam industri kimia maupun farmasi untuk membuat sebuah larutan.')
+    st.write('Satuan konsentrasi ppm (parts per million, "bagian per sejuta") pada dasarnya bertujuan untuk menghitung kadar kandungan yang terlarut dalam air. Dalam industri, ppm adalah satuan yang sering digunakan untuk mengukur kualitas produk dan bahan, serta kontrol kualitas dalam proses produksi. Penggunaan ppm memungkinkan untuk mendeteksi sejumlah sangat kecil dari bahan atau zat yang bisa berdampak signifikan terhadap lingkungan atau kesehatan manusia.')
+
     st.image("gambar kimia orang.webp")
 
 with tab2:
