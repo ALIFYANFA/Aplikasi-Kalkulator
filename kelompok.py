@@ -1,10 +1,9 @@
 import streamlit as st
 
-st.header('Kelompok 7')
 st.image('biodata kelompok 7.jpg')
 st.title('Kalkukator ppm dari Molaritas ')
 
-tab1, tab2, tab3, tab4=st.tabs(['Informasi Tentang ppm','Rumus dan Contoh Soal','Kalkulator Molaritas','Kalkulator ppm'])
+tab1, tab2, tab3=st.tabs(['Informasi Tentang ppm','Kalkulator Molaritas','Kalkulator ppm'])
 
 
 with tab1:
@@ -12,14 +11,13 @@ with tab1:
     st.write('Satuan konsentrasi ppm (parts per million, "bagian per sejuta")pada dasarnya bertujuan untuk menghitung kadar kandungan yang terlarut dalam air, Dalam industri, ppm adalah satuan yang sering digunakan untuk mengukur kualitas produk dan bahan, serta kontrol kualitas dalam proses produksi, Penggunaan ppm memungkinkan untuk mendeteksi sejumlah sangat kecil dari bahan atau zat yang bisa berdampak signifikan terhadap lingkungan atau kesehatan manusia')
     st.image("gambar kimia orang.webp")
 
-with tab2:
-    st.header('Rumus dan Contoh Soal')
-    st.image('rumus molaritas - Salin.jpg')
-    st.image('rumus ppm.jpg')
-    st.image('contoh soal molaritas 1.jpg')
-    st.image('contoh soal ppm1.jpg')
 
-with tab3:
+with tab2:
+    st.image('rumus ppm.jpg')
+
+    st.header('Rumus Molaritas')
+    st.image('rumus molaritas - Salin.jpg')
+   
     st.header('Kalkulator Molaritas ')
     y=st.number_input('Masukkan masa sampel dalam satuan mg:')
     x=st.number_input('Masukkan bobot molekul sampel dalam satuan mg/mmol:')    
@@ -34,7 +32,12 @@ with tab3:
         jumlahmolaritas=y/x/z/m
         st.success(f'jumlah Molaritas adalah{jumlahmolaritas}') 
 
-with tab4:
+    st.header('Contoh Soal')
+    st.image('contoh soal molaritas 1.jpg')
+
+    st.image('contoh soal ppm1.jpg')
+
+with tab3:
     st.header('Kalkulator ppm')
     x=st.number_input('Masukkan molaritas dari sampel yang telah dipilih dalam satuan mmol/mL:')
     y=st.number_input('Masukkan volume titran dalam satuan mL:')    
