@@ -1,5 +1,13 @@
 import streamlit as st
 
+<style>
+    .stApp {{
+        background-image: url("backgroundsteamlit.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }}
+</style>
 
 
 st.title('Aplikasi Perhitungan ppm dari Molaritas ')
