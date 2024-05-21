@@ -17,8 +17,8 @@ with tab2:
     st.image('rumus molaritas - Salin.jpg')
    
     st.header('Kalkulator Molaritas ')
-    y=st.number_input('Masukkan masa sampel (mg):')
-    x=st.number_input('Masukkan bobot molekul sampel (mg/mmol):')    
+    y=st.number_input('Masukkan masa (mg):')
+    x=st.number_input('Masukkan bobot molekul (mg/mmol):')    
     z=st.number_input('Masukkan volume (mL)')
     m=st.number_input('Masukan faktor pengali (jika Tidak ada Masukan Angka 1)')
     st.image("bird-colors.gif")
@@ -40,7 +40,7 @@ with tab3:
     x=st.number_input('Masukkan molaritas (mmol/mL):')
     y=st.number_input('Masukkan volume titran (mL):')    
     z=st.number_input('Masukkan bobot molekul (mg/mmol)')
-    v=st.number_input('Masukkan volume sampel (mL)')
+    v=st.number_input('Masukkan volume (mL)')
     st.image("bird-colors.gif")
     
     tombol = st.button('Hitung jumlah ppm')
