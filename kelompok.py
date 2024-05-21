@@ -36,11 +36,12 @@ with tab4:
     y=st.number_input('Masukkan volume titran dalam satuan mL:')    
     z=st.number_input('Masukkan bobot molekul dalam satuan mg/mmol')
     v=st.number_input('Masukkan volume sampel dalam satuan mL')
+    m=st.number_input('masukan faktor pengali')
     
     tombol = st.button('Hitung jumlah ppm')
      
     if tombol:
-        jumlahppm=x*y*z/v/0.001
+        jumlahppm=x*y*z*m/v/0.001
         st.success(f'jumlah ppm adalah{jumlahppm}') 
 
 
