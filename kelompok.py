@@ -47,4 +47,4 @@ with tab4:
 
 with tab5:
     st.header('Latihan soal')
-    st.write('')
+    st.write('wahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh')
