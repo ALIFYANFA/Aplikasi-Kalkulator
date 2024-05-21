@@ -18,26 +18,26 @@ with tab3:
     y=st.number_input('Masukkan masa sampel dalam satuan mg:')
     x=st.number_input('Masukkan bobot molekul sampel dalam satuan mg/mmol:')    
     z=st.number_input('Masukkan volume dalam satuan mL')
+    m=st.number_input('Masukan faktor pengali (jika Tidak ada Masukan Angka 1)')
     st.image("bird-colors.gif")
 
 
-    tombol = st.button('Hitung jumlah molaritas')
+    tombol = st.button('Hitung jumlah Molaritas')
      
     if tombol:
-        jumlahmolaritas=y/x/z
-        st.success(f'jumlah molaritas adalah{jumlahmolaritas}') 
+        jumlahmolaritas=y/x/z/m
+        st.success(f'jumlah Molaritas adalah{jumlahmolaritas}') 
 
     x=st.number_input('Masukkan molaritas dari sampel yang telah dipilih dalam satuan mmol/mL:')
     y=st.number_input('Masukkan volume titran dalam satuan mL:')    
     z=st.number_input('Masukkan bobot molekul dalam satuan mg/mmol')
     v=st.number_input('Masukkan volume sampel dalam satuan mL')
-    m=st.number_input('Masukan faktor pengali (jika Tidak ada Masukan Angka 1)')
     st.image("bird-colors.gif")
     
     tombol = st.button('Hitung jumlah ppm')
      
     if tombol:
-        jumlahppm=x*y*z*m/v/0.001
+        jumlahppm=x*y*z/v/0.001
         st.success(f'jumlah ppm adalah{jumlahppm}') 
 
 with tab4:
