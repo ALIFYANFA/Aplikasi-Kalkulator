@@ -40,7 +40,7 @@ with tab3:
     x=st.number_input('Masukkan Molaritas (mmol/mL):')
     y=st.number_input('Masukkan volume titran (mL):')    
     z=st.number_input('Masukkan bobot molekul (mg/mmol):')
-    v=st.number_input('Masukkan volume (mL):')
+    v=st.number_input('Masukkan volume sampel (mL):')
     st.image("bird-colors.gif")
     
     tombol = st.button('Hitung jumlah ppm')
