@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title('Kalkukator ppm dari Molaritas ')
 
-tab1, tab2, tab3, tab4, tab5, tab6=st.tabs(['Biodata Kelompok 7','Informasi Tentang ppm','kalkulator Molaritas','kalkulator ppm dari Molaritas','Contoh Soal Molaritas','Contoh Soal ppm'])
+tab1, tab2, tab3, tab4=st.tabs(['Biodata Kelompok 7','Informasi Tentang ppm','Kalkulator ppm dari Molaritas','Rumus dan Contoh Soal'])
 
 with tab1:
     st.header('Biodata kelompok')
@@ -10,12 +10,12 @@ with tab1:
 
 with tab2:
     st.header('Informasi Tentang ppm')
-    st.write('Satuan konsentrasi ppm (parts per million, "bagian per sejuta")pada dasarnya bertujuan untuk menghitung kadar kandungan yang terlarut dalam air, Dalam industri, PPM adalah satuan yang sering digunakan untuk mengukur kualitas produk dan bahan, serta kontrol kualitas dalam proses produksi, Penggunaan ppm memungkinkan untuk mendeteksi sejumlah sangat kecil dari bahan atau zat yang bisa berdampak signifikan terhadap lingkungan atau kesehatan manusia')
+    st.write('Satuan konsentrasi ppm (parts per million, "bagian per sejuta")pada dasarnya bertujuan untuk menghitung kadar kandungan yang terlarut dalam air, Dalam industri, ppm adalah satuan yang sering digunakan untuk mengukur kualitas produk dan bahan, serta kontrol kualitas dalam proses produksi, Penggunaan ppm memungkinkan untuk mendeteksi sejumlah sangat kecil dari bahan atau zat yang bisa berdampak signifikan terhadap lingkungan atau kesehatan manusia')
     st.image("gambar kimia orang.webp")
     
 with tab3:
-    st.header('kalkulator Molaritas ')
-    y=st.number_input('Masukkan masa padatan dari sampel yang telah dipilih dalam satuan mg:')
+    st.header('kalkulator ppm Dari Molaritas ')
+    y=st.number_input('Masukkan masa sampel dalam satuan mg:')
     x=st.number_input('Masukkan bobot molekul sampel dalam satuan mg/mmol:')    
     z=st.number_input('Masukkan volume dalam satuan mL')
     st.image("bird-colors.gif")
@@ -27,9 +27,6 @@ with tab3:
         jumlahmolaritas=y/x/z
         st.success(f'jumlah molaritas adalah{jumlahmolaritas}') 
 
-
-with tab4:
-    st.header('kalkulator ppm dari molaritas')
     x=st.number_input('Masukkan molaritas dari sampel yang telah dipilih dalam satuan mmol/mL:')
     y=st.number_input('Masukkan volume titran dalam satuan mL:')    
     z=st.number_input('Masukkan bobot molekul dalam satuan mg/mmol')
@@ -43,10 +40,9 @@ with tab4:
         jumlahppm=x*y*z*m/v/0.001
         st.success(f'jumlah ppm adalah{jumlahppm}') 
 
-with tab5:
-    st.header('Contoh Soal Molaritas')
+with tab4:
+    st.header('Rumus dan Contoh Soal')
+    st.image('rumus molaritas - Salin.jpg')
+    st.image('rumus ppm.jpg')
     st.image('contoh soal molaritas 1.jpg')
-
-with tab6:
-    st.header('Contoh Soal ppm')
     st.image('contoh soal ppm1.jpg')       
