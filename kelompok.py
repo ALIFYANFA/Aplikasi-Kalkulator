@@ -1,6 +1,6 @@
 import streamlit as st
 
-# Add custom CSS to set the background image
+
 st.markdown(
     f"""
     <style>
@@ -17,9 +17,9 @@ st.markdown(
 
 
 
-st.title('Aplikasi Perhitungan ppm dari Molaritas ')
+st.title('Kalkukator ppm dari Molaritas ')
 
-tab1, tab2, tab3, tab4, tab5, tab6=st.tabs(['Biodata Kelompok 7','informasi tentang ppm','kalkulator menghitung Molaritas','kalkulator menghitung ppm dari Molaritas','Contoh Soal Molaritas','Contoh Soal ppm'])
+tab1, tab2, tab3, tab4, tab5, tab6=st.tabs(['Biodata Kelompok 7','informasi tentang ppm','kalkulator Molaritas','kalkulator ppm dari Molaritas','Contoh Soal Molaritas','Contoh Soal ppm'])
 
 with tab1:
     st.header('Biodata kelompok')
@@ -31,7 +31,7 @@ with tab2:
     st.image("gambar kimia orang.webp")
     
 with tab3:
-    st.header('kalkulator menghitung Molaritas ')
+    st.header('kalkulator Molaritas ')
     y=st.number_input('Masukkan masa padatan dari sampel yang telah dipilih dalam satuan mg:')
     x=st.number_input('Masukkan bobot molekul sampel dalam satuan mg/mmol:')    
     z=st.number_input('Masukkan volume dalam satuan mL')
@@ -46,7 +46,7 @@ with tab3:
 
 
 with tab4:
-    st.header('kalkulator menghitung ppm dari molaritas')
+    st.header('kalkulator ppm dari molaritas')
     x=st.number_input('Masukkan molaritas dari sampel yang telah dipilih dalam satuan mmol/mL:')
     y=st.number_input('Masukkan volume titran dalam satuan mL:')    
     z=st.number_input('Masukkan bobot molekul dalam satuan mg/mmol')
