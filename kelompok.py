@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.header('Biodata kelompok')
+st.header('Biodata Kelompok 7')
 st.image('biodata kelompok 7.jpg')
 st.title('Kalkukator ppm dari Molaritas ')
 
