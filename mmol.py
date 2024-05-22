@@ -30,7 +30,7 @@ with tab2:
      
     if tombol:
         jumlahmolaritas=y/x/z/m
-        st.success(f'Jumlah Molaritas adalah{jumlahmolaritas}mmol/mL') 
+        st.success(f'Jumlah Molaritas adalah {jumlahmolaritas} mmol/mL') 
 
     st.image('contoh soal molaritas 1.jpg')
 
@@ -49,6 +49,6 @@ with tab3:
      
     if tombol:
         jumlahppm=x*y*z/v/0.001
-        st.success(f'Jumlah ppm adalah{jumlahppm}mg/mL') 
+        st.success(f'Jumlah ppm adalah {jumlahppm} mg/mL') 
 
     st.image('contoh soal.jpg')
