@@ -4,7 +4,7 @@ st.header('Kelompok 7')
 st.image('biodata kelompok 7.jpg')
 st.title('Kalkukator ppm dari Molaritas ')
 
-tab1, tab2, tab3=st.tabs(['Informasi Tentang ppm','Kalkulator Molaritas','Kalkulator ppm'])
+tab1, tab2, tab3=st.tabs(['Informasi Tentang Molaritas dan ppm','Kalkulator Molaritas','Kalkulator ppm'])
 
 
 with tab1:
