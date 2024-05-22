@@ -4,11 +4,11 @@ st.header('Kelompok 7')
 st.image('biodata kelompok 7.jpg')
 st.title('Kalkukator ppm dari Molaritas ')
 
-tab1, tab2, tab3=st.tabs(['Informasi Tentang Molaritas dan ppm','Kalkulator Molaritas','Kalkulator ppm'])
+tab1, tab2, tab3=st.tabs(['Informasi Tentang ppm dan Molaritas','Kalkulator Molaritas','Kalkulator ppm'])
 
 
 with tab1:
-    st.header('Informasi Tentang ppm')
+    st.header('Informasi Tentang ppm dan Molaritas')
     st.write('Molaritas adalah satuan konsentrasi larutan yang menyatakan jumlah mol zat terlarut dalam satu liter larutan. Satuan ini sering digunakan dalam industri kimia maupun farmasi untuk membuat sebuah larutan.')
     st.write('Satuan konsentrasi ppm (parts per million, "bagian per sejuta") pada dasarnya bertujuan untuk menghitung kadar kandungan yang terlarut dalam air. Dalam industri, ppm adalah satuan yang sering digunakan untuk mengukur kualitas produk dan bahan, serta kontrol kualitas dalam proses produksi. Penggunaan ppm memungkinkan untuk mendeteksi sejumlah sangat kecil dari bahan atau zat yang bisa berdampak signifikan terhadap lingkungan atau kesehatan manusia.')
 
