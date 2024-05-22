@@ -42,13 +42,13 @@ with tab3:
     x=st.number_input('Masukkan Molaritas (mmol/mL):')
     y=st.number_input('Masukkan Volume Titran (mL):')    
     z=st.number_input('Masukkan BM (Bobot Molekul) (mg/mmol):')
-    v=st.number_input('Masukkan Volume Sampel (mL):')
+    v=st.number_input('Masukkan Volume Sampel (L):')
     st.image("bird-colors.gif")
     
     tombol = st.button('Hitung Jumlah ppm')
      
     if tombol:
-        jumlahppm=x*y*z/v/0.001
-        st.success(f'Jumlah ppm adalah {jumlahppm} mg/mL') 
+        jumlahppm=x*y*z/v
+        st.success(f'Jumlah ppm adalah {jumlahppm} mg/L') 
 
     st.image('contoh soal.jpg')
